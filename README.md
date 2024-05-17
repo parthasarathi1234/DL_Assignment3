@@ -20,11 +20,11 @@ To run the code, you need the following libraries:
 Install the required libraries using pip:
 ```
 
-## GPU Integration
+** GPU Integration**
 The code is optimized to use a GPU if one is available, ensuring faster computations and more efficient training.
 pip install torch pandas wandb argparse
      
-## Data set 
+**Data set**
 Different csv datasets (Train, Validation, and Test) are loaded and preprocessed for the model.
 
 -wp, --wandb_project             : Specifies the project name for Weights & Biases.
@@ -42,7 +42,7 @@ Different csv datasets (Train, Validation, and Test) are loaded and preprocessed
 -val_path, --val_path            : (required) Path to the validation data CSV file.
 
 
-## To train the model without attention:
+**To train the model without attention:**
 The cs23m035_4_without_attention.py script uses parse_arguments from the parser library to execute the training.
 It can be run with the command
 
