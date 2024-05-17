@@ -20,7 +20,7 @@ To run the code, you need the following libraries:
 Install the required libraries using pip:
 ```
 
-**GPU Integration**
+**GPU_Integration**
 The code is optimized to use a GPU if one is available, ensuring faster computations and more efficient training.
 pip install torch pandas wandb argparse
      
