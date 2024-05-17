@@ -20,11 +20,11 @@ To run the code, you need the following libraries:
 Install the required libraries using pip:
 ```
 
-### GPU Integration
+## GPU Integration
 The code is optimized to use a GPU if one is available, ensuring faster computations and more efficient training.
 pip install torch pandas wandb argparse
      
-### Data set 
+## Data set 
 Different csv datasets (Train, Validation, and Test) are loaded and preprocessed for the model.
 
 -wp, --wandb_project             : Specifies the project name for Weights & Biases.
@@ -42,7 +42,7 @@ Different csv datasets (Train, Validation, and Test) are loaded and preprocessed
 -val_path, --val_path            : (required) Path to the validation data CSV file.
 
 
-#### To train the model without attention:
+## To train the model without attention:
 The cs23m035_4_without_attention.py script uses parse_arguments from the parser library to execute the training.
 It can be run with the command
 
@@ -52,7 +52,7 @@ python cs23m035_4_without_attention.py --<parameterName> <value>
 
 python train_without_attention.py -wp my_project -e 20 -lr 0.001 -b 32 -embd_dim 256 -hid_neur 256 -num_layers 2 -cell LSTM -do 0.3 -opt adam -train_path data/train.csv -test_path data/test.csv -val_path data/val.csv
 
-#### To train the model with attention:
+## To train the model with attention:
 
 In the AttentionRNN.ipynb notebook, wandb parameters are integrated directly, and sweeps are run to find the best hyperparameters.
 You can run the notebook by integrating your wandb account using your activation key to visualize the results.
