@@ -44,7 +44,7 @@ Different csv datasets (Train, Validation, and Test) are loaded and preprocessed
 The cs23m035_4_without_attention.py script uses parse_arguments from the parser library to execute the training.
 It can be run with the command
 
-python cs23m035_4_without_attention.py --<parameterName> <value>
+python cs23m035_4_without_attention.py --(parameterName) <value>
 
 ## Example
 
