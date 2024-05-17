@@ -16,9 +16,7 @@ To run the code, you need the following libraries:
 - wandb
 - argparse
 
-'''
 Install the required libraries using pip:
-```
 
 **GPU_Integration**
 The code is optimized to use a GPU if one is available, ensuring faster computations and more efficient training.
@@ -63,7 +61,7 @@ python cs23m035_with_attention.py --<parameterName> <value>
 
 python train_with_cs23m035_with_attention.py -wp my_project -e 20 -lr 0.001 -b 32 -embd_dim 256 -hid_neur 256 -num_layers 2 -cell LSTM -do 0.3 -opt adam -train_path data/train.csv -test_path data/test.csv -val_path data/val.csv
 
-Running the Training Scripts
+**Running the Training Scripts**
 To train a basic Seq2Seq model without attention:
 
 Ensure you have prepared your dataset and saved it as train.csv, test.csv, and validation.csv.
